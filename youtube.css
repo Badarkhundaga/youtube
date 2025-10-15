@@ -1,0 +1,45 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+   height: 100pt;
+   width: 100%;
+}
+.left{ 
+    height: 100vh;
+   width: 150pt;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    
+    
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+   
+}
+.video{
+    height: 100pt;
+    width: 200pt;
+    background-color: red;
+    margin: 10pt;
+    display: flex;
+    align-items: flex-end;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.title{
+    display: flex;
+    height: 20pt;
+    width: 100%;
+    background-color: rgb(253, 247, 247);
+   
+}
